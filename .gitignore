@@ -18,5 +18,7 @@ data/*
 # Results and plots (Ignore heavy artifacts)
 results/plots/*
 !results/plots/.gitkeep
+!results/plots/architecture.png
+!results/plots/resilience.png
 results/tables/*
 !results/tables/.gitkeep
