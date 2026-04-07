@@ -1,0 +1,214 @@
+{
+  "0.1": {
+    "FedPDG": {
+      "f1_macro": 1.0,
+      "accuracy": 1.0,
+      "byz_detected": 0,
+      "byz_precision": 0.0,
+      "byz_recall": 0.0,
+      "byz_f1": 0.0,
+      "byz_accuracy": 0.8
+    },
+    "FedAvg": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_per_class": [
+        1.0
+      ],
+      "detection_rate": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision_binary": 0.0,
+      "f1_binary": 0.0
+    },
+    "Krum": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_per_class": [
+        1.0
+      ],
+      "detection_rate": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision_binary": 0.0,
+      "f1_binary": 0.0
+    },
+    "FLAME": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_per_class": [
+        1.0
+      ],
+      "detection_rate": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision_binary": 0.0,
+      "f1_binary": 0.0
+    }
+  },
+  "0.2": {
+    "FedPDG": {
+      "f1_macro": 1.0,
+      "accuracy": 1.0,
+      "byz_detected": 0,
+      "byz_precision": 0.0,
+      "byz_recall": 0.0,
+      "byz_f1": 0.0,
+      "byz_accuracy": 0.8
+    },
+    "FedAvg": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_per_class": [
+        1.0
+      ],
+      "detection_rate": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision_binary": 0.0,
+      "f1_binary": 0.0
+    },
+    "Krum": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_per_class": [
+        1.0
+      ],
+      "detection_rate": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision_binary": 0.0,
+      "f1_binary": 0.0
+    },
+    "FLAME": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_per_class": [
+        1.0
+      ],
+      "detection_rate": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision_binary": 0.0,
+      "f1_binary": 0.0
+    }
+  },
+  "0.3": {
+    "FedPDG": {
+      "f1_macro": 1.0,
+      "accuracy": 1.0,
+      "byz_detected": 0,
+      "byz_precision": 0.0,
+      "byz_recall": 0.0,
+      "byz_f1": 0.0,
+      "byz_accuracy": 0.8
+    },
+    "FedAvg": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_per_class": [
+        1.0
+      ],
+      "detection_rate": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision_binary": 0.0,
+      "f1_binary": 0.0
+    },
+    "Krum": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_per_class": [
+        1.0
+      ],
+      "detection_rate": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision_binary": 0.0,
+      "f1_binary": 0.0
+    },
+    "FLAME": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_per_class": [
+        1.0
+      ],
+      "detection_rate": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision_binary": 0.0,
+      "f1_binary": 0.0
+    }
+  },
+  "0.4": {
+    "FedPDG": {
+      "f1_macro": 1.0,
+      "accuracy": 1.0,
+      "byz_detected": 0,
+      "byz_precision": 0.0,
+      "byz_recall": 0.0,
+      "byz_f1": 0.0,
+      "byz_accuracy": 0.6
+    },
+    "FedAvg": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_per_class": [
+        1.0
+      ],
+      "detection_rate": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision_binary": 0.0,
+      "f1_binary": 0.0
+    },
+    "Krum": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_per_class": [
+        1.0
+      ],
+      "detection_rate": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision_binary": 0.0,
+      "f1_binary": 0.0
+    },
+    "FLAME": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_per_class": [
+        1.0
+      ],
+      "detection_rate": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision_binary": 0.0,
+      "f1_binary": 0.0
+    }
+  }
+}

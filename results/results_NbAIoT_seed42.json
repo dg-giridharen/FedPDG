@@ -1,0 +1,115 @@
+{
+  "FedPDG": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "detection_rate": 0.0,
+    "false_alarm_rate": 0.0,
+    "convergence": {
+      "round": [
+        10
+      ],
+      "accuracy": [
+        1.0
+      ],
+      "f1_macro": [
+        1.0
+      ],
+      "detection_rate": [
+        0.0
+      ],
+      "false_alarm_rate": [
+        0.0
+      ],
+      "pds_scores": [
+        {
+          "0": 0.008221741765737534,
+          "1": 0.005037779454141855,
+          "2": 0.006608945317566395,
+          "4": 0.03805594518780708
+        }
+      ],
+      "byzantine_detected": [
+        0
+      ],
+      "zeroday_detected": [
+        0
+      ],
+      "classes_spawned": [
+        0
+      ],
+      "zd_detection_rate": [
+        0.9999999999997802
+      ]
+    }
+  },
+  "FedAvg": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_per_class": [
+      1.0
+    ],
+    "detection_rate": 0.0,
+    "false_alarm_rate": 0.0,
+    "precision_binary": 0.0,
+    "f1_binary": 0.0
+  },
+  "FedProx": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_per_class": [
+      1.0
+    ],
+    "detection_rate": 0.0,
+    "false_alarm_rate": 0.0,
+    "precision_binary": 0.0,
+    "f1_binary": 0.0
+  },
+  "Krum": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_per_class": [
+      1.0
+    ],
+    "detection_rate": 0.0,
+    "false_alarm_rate": 0.0,
+    "precision_binary": 0.0,
+    "f1_binary": 0.0
+  },
+  "FLAME": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_per_class": [
+      1.0
+    ],
+    "detection_rate": 0.0,
+    "false_alarm_rate": 0.0,
+    "precision_binary": 0.0,
+    "f1_binary": 0.0
+  },
+  "FLTrust": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_per_class": [
+      1.0
+    ],
+    "detection_rate": 0.0,
+    "false_alarm_rate": 0.0,
+    "precision_binary": 0.0,
+    "f1_binary": 0.0
+  }
+}

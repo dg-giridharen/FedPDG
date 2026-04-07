@@ -1,0 +1,12 @@
+@(
+    'numpy',
+    'pandas',
+    'torch',
+    'torchvision',
+    'torchaudio',
+    'scikit-learn',
+    'matplotlib',
+    'tqdm',
+    'scipy',
+    'seaborn'
+) -join [Environment]::NewLine

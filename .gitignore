@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+results/logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data (Ignore all raw datasets)
+data/*
+!data/.gitkeep
+
+# Results and plots (Ignore heavy artifacts)
+results/plots/*
+!results/plots/.gitkeep
+results/tables/*
+!results/tables/.gitkeep
