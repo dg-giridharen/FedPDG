@@ -1,10 +1,7 @@
 # FedPDG: Federated Prototype Divergence Guard for Byzantine-Robust Intrusion Detection in IIoT Networks
 
-**Review-II [Assignment-II]**  
 **Author**: Giridharen Goguladhevan  
-**Regd. No**: 23BCE5043  
-**Email**: [giridharen.2023@vitstudent.ac.in](mailto:giridharen.2023@vitstudent.ac.in)  
-**Phone No.**: 7397382046
+
 
 ---
 
