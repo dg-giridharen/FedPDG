@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 3. Problem Statement
+## 📌 1. Problem Statement
 Cyberattacks are happening more and more in IIoT settings. Federated Learning (FL) provides a privacy-preserving framework for Collaborative Intrusion Detection; however, it encounters three significant threats:
 1.  **Byzantine Poisoning**: Bad clients can upload bad local updates to make the global model worse.
 2.  **Zero-Day Vulnerability**: Classical closed-set classifiers do not identify novel, unobserved attack signatures.
@@ -15,28 +15,28 @@ Cyberattacks are happening more and more in IIoT settings. Federated Learning (F
 
 ---
 
-## 🏗️ 4. Methodology
+## 🏗️ 2. Methodology
 The FedPDG framework brings together three new and important ideas in architecture:
 
-### 4.1 Prototype Divergence Scoring (PDS)
+### 2.1 Prototype Divergence Scoring (PDS)
 PDS doesn’t look at gradients like other methods do. It instead looks at the feature centroids (**prototypes**) that each client makes for each class. FedPDG can tell the difference between honest data variance and malicious poisoning by calculating the **Kullback-Leibler (KL) Divergence** between local prototypes and the global consensus. Byzantine clients usually have a PDS that is six to eight times higher than that of honest clients (0.3 to 1.5).
 
 ![FedPDG Architecture Overview](./results/plots/architecture.png)
 
-### 4.2 Divergence-Weighted Aggregation (DWA)
+### 2.2 Divergence-Weighted Aggregation (DWA)
 DWA replaces the normal FedAvg with a trust-scoring system that changes over time. Each client’s update is given a weight of:
 $w_k = \frac{\exp(-\text{PDS}_k/\tau)}{\sum_j \exp(-\text{PDS}_j/\tau)}$
 where $\tau$ is a temperature that changes. This makes sure that suspicious updates are automatically blocked without the need for manual intervention or strict limits.
 
-### 4.3 Adaptive Prototype Spawning (APS)
+### 2.3 Adaptive Prototype Spawning (APS)
 To deal with **Zero-Day attacks**, APS watches the feature embeddings of test samples as they come in. If a sample is very different from all the known prototypes, the system marks it as "unseen" and creates a new class prototype on-the-fly. This lets the model adapt to new threats without having to be fully retrained.
 
-### 4.4 Deep Learning Architecture
+### 2.4 Deep Learning Architecture
 The underlying model has a **TabularTransformerEncoder** with **2 layers** and **4 heads**. It also has **128-dimensional** latent embeddings. It is improved by using a **Combined Focal Loss** that includes Cross-Entropy for classification and Supervised Contrastive Loss for feature clustering.
 
 ---
 
-## 📂 5. Data Description and Preprocessing
+## 📂 3. Data Description and Preprocessing
 The framework was tested on three benchmark IIoT datasets.
 
 ### Table 1: Dataset Overview
@@ -50,9 +50,9 @@ The framework was tested on three benchmark IIoT datasets.
 
 ---
 
-## 📊 7. Experimental Results
+## 📊 4. Experimental Results
 
-### 7.1 Main Results (Comparison on CICIDS2017)
+### 4.1 Main Results (Comparison on CICIDS2017)
 FedPDG does the best job possible on all security metrics.
 
 ### Table 2: Main Performance Comparison
@@ -64,7 +64,7 @@ FedPDG does the best job possible on all security metrics.
 | Krum | 92.11% | 47.77% | 96.22% |
 | FLAME | 96.44% | 67.79% | 96.26% |
 
-### 7.2 Byzantine Robustness Analysis
+### 4.2 Byzantine Robustness Analysis
 The DWA mechanism is strong against different levels of label-flip attacks.
 
 ### Table 3: Robustness under Byzantine Attacks (F1 Macro)
@@ -77,7 +77,7 @@ The DWA mechanism is strong against different levels of label-flip attacks.
 
 ![Byzantine Resilience Plot](./results/plots/resilience.png)
 
-### 7.3 Zero-Day and Ablation Study
+### 4.3 Zero-Day and Ablation Study
 Ablation was used to test each part (PDS, DWA, APS) worked on its own.
 
 ### Table 4: Zero-Day Detection and Ablation Results
@@ -91,14 +91,14 @@ Ablation was used to test each part (PDS, DWA, APS) worked on its own.
 
 ---
 
-## 💡 8. Interpretation and Discussion
+## 💡 5. Interpretation and Discussion
 The experimental results demonstrate that FedPDG’s prototype-based approach is superior to gradient-shaping methods such as **Krum** and **FLAME**. Notably, at 40% Byzantine poisoning, FedPDG outperforms FedAvg by over **2.35×** in F1-macro score.
 
 The 100% Zero-Day detection rate proves that **Adaptive Prototype Spawning (APS)** can successfully identify novel attack patterns without the need for historical labels or retraining. This fundamentally enhances the security posture of smart city IIoT networks.
 
 ---
 
-## 🏆 9. Conclusion
+## 🏆 6. Conclusion
 FedPDG bridges the gap between privacy, robustness, and flexibility in IIoT security. By utilizing prototype divergence analysis, the framework successfully mitigates Byzantine threats and uniquely identifies **100%** of unseen Zero-Day attacks on the CICIDS2017 dataset. These findings validate FedPDG as a scalable and highly resilient solution for real-world federated intrusion detection systems in modern smart cities.
 
 ---
